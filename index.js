@@ -25,7 +25,7 @@ app.use((err, _, res, __) => {
 })
 
 app.get('/', (_, res) => {
-  res.status(200).send('LIC-FB API [Status: OK]')
+  res.status(200).send('MAGU-COACH API [Status: OK]')
 })
 
 const PORT = process.env.PORT || 5000
